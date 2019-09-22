@@ -12941,20 +12941,20 @@
   },
   "packageFolders": {
     "C:\\Users\\havok\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "V:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\havok\\source\\repos\\WebStore\\WebStore\\WebStore\\WebStore.csproj",
+      "projectUniqueName": "C:\\Users\\havok\\source\\repos\\WebStore\\WebStore\\WebStore.csproj",
       "projectName": "WebStore",
-      "projectPath": "C:\\Users\\havok\\source\\repos\\WebStore\\WebStore\\WebStore\\WebStore.csproj",
+      "projectPath": "C:\\Users\\havok\\source\\repos\\WebStore\\WebStore\\WebStore.csproj",
       "packagesPath": "C:\\Users\\havok\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\havok\\source\\repos\\WebStore\\WebStore\\WebStore\\obj\\",
+      "outputPath": "C:\\Users\\havok\\source\\repos\\WebStore\\WebStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "V:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
