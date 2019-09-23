@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using WebStore.Infrastructure.Interfaces;
+using WebStore.Infrastructure.Services;
 
 namespace WebStore
 {
@@ -23,6 +25,8 @@ namespace WebStore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddSingleton<IEmployeeServices, EmployeeService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +39,7 @@ namespace WebStore
 
             app.UseStaticFiles();
 
+            //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}"));
 
